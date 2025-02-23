@@ -47,7 +47,7 @@ class Encore(BaseChar):
             self.logger.info('Encore nothing is available')
         if self.echo_available():
             self.logger.debug('click_echo')
-            self.click_echo()
+            self.click_echo(1.5)
             return self.switch_next_char()
         self.switch_next_char()
 
