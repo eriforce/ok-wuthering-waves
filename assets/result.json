@@ -461,6 +461,12 @@
             "height": 2160,
             "id": 76,
             "file_name": "images/76.png"
+        },
+        {
+            "width": 2560,
+            "height": 1440,
+            "id": 77,
+            "file_name": "images/77.png"
         }
     ],
     "categories": [
@@ -1375,6 +1381,10 @@
         {
             "id": 227,
             "name": "ww"
+        },
+        {
+            "id": 228,
+            "name": "char_lingyang"
         }
     ],
     "annotations": [
@@ -3927,6 +3937,21 @@
             "ignore": 0,
             "iscrowd": 0,
             "area": 6309.385160075073
+        },
+        {
+            "id": 170,
+            "image_id": 77,
+            "category_id": 228,
+            "segmentation": [],
+            "bbox": [
+                2353,
+                479,
+                63,
+                51
+            ],
+            "ignore": 0,
+            "iscrowd": 0,
+            "area": 3213
         }
     ],
     "info": {

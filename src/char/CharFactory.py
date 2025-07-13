@@ -15,6 +15,7 @@ from src.char.HavocRover import HavocRover
 from src.char.Jianxin import Jianxin
 from src.char.Jinhsi import Jinhsi
 from src.char.Jiyan import Jiyan
+from src.char.LingYang import LingYang
 from src.char.Lupa import Lupa
 from src.char.Mortefi import Mortefi
 from src.char.Phoebe import Phoebe
@@ -69,6 +70,7 @@ char_dict = {
                         'ring_index': Elements.WIND},
     'char_lupa': {'cls': Lupa, 'res_cd': 14, 'echo_cd': 25, 'liberation_cd': 20,
                   'ring_index': Elements.FIRE},
+    'char_lingyang': {'cls': LingYang, 'res_cd': 9999999, 'echo_cd': 20, 'ring_index': Elements.ICE},
 }
 
 char_names = char_dict.keys()
